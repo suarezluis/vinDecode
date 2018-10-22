@@ -11,7 +11,7 @@ class Searchbar extends Component {
             type="text"
             name="fname"
             value={this.props.term}
-            size="17"
+            size="18"
             onChange={event =>
               this.props.changeVIN(
                 event.target.value

@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/vinDecode/static/css/main.7a8ddb6b.chunk.css"
   },
   {
-    "revision": "b5bb843650a1dff34f247691d6b95a8d",
+    "revision": "0f4b3ebca3bac7f88fa91c9359887e08",
     "url": "/vinDecode/index.html"
   }
 ];

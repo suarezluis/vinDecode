@@ -60,14 +60,14 @@ class CarInfo extends Component {
         <h5>
           Detailed Information{" "}
           <span id="moreInfo" className="clickable" onClick={this.showInfo}>
-            [+]
+            [⬇]
           </span>{" "}
           <span
             id="lessInfo"
             className="clickable d-none"
             onClick={this.hideInfo}
           >
-            [-]
+            [⬆]
           </span>
         </h5>
         <div id="detailed" className="row d-none">

@@ -41,7 +41,7 @@ class App extends Component {
   requestData = term => {
     axios
       .get(
-        `https://vpic.nhtsa.dot.gov/api/vehicles/decodevinvalues/${term}?format=json`
+        `https://vpic.nhtsa.dot.gov/api/vehicles/decodevinvaluesextended/${term}?format=json`
       )
       .then(res => {
         if (res.data.Results) {
